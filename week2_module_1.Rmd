@@ -38,12 +38,10 @@ this is the linkk to [Google](www.google.com)
 summary(cars)
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
+## Insert tabales
+```{r}
+knitr::kable(head(cars),
+             caption = 'Top 6 rows Cars datasets')
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
