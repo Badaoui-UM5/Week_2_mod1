@@ -7,6 +7,9 @@ output:
   word_document: default
 ---
 
+setwd("~/Documents/Template_reproducible_Research/")
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -45,3 +48,18 @@ knitr::kable(head(cars),
 ```
 
 
+## Insert an equation
+
+$$ Y= \beta0 + \beta1x  $$
+
+## Insert image
+
+![sunstar](/home/bouabid/Documents/Template_reproducible_Research/sunstar.png)
+
+
+![UM5](/home/bouabid/Documents/Template_reproducible_Research/UM5.png)
+
+## Insert GIF and video
+
+![sunstar](/home/bouabid/Documents/Template_reproducible_Research/sunstar.png)
+![sunstar](/home/bouabid/Documents/Template_reproducible_Research/sunstar.mp4)
